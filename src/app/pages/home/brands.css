@@ -1,5 +1,7 @@
 .brand{
-
+display: flex;
+flex-direction: column;
+gap: 2rem;
 }
 .trust{
     display: flex;
@@ -50,4 +52,25 @@ gap: 0.3rem;
 }
 .last-ser{
     border-right: none;
+}
+.employees{
+    display: flex;
+    width: 80%;
+ flex-wrap: wrap;
+ gap: 2rem;
+ align-items: center;
+ justify-content: center;
+}
+.employees-area{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 30%;
+}
+.employees-area span{
+    font-weight: 600;
+    color: #15357A;
+}
+.employees-area p{
+    font-size: 0.9rem;
 }
