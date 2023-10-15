@@ -1,18 +1,53 @@
+.brand{
+
+}
 .trust{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
- .brand p , strong{
+ .brand p , strong {
     font-size: 1.3rem;
+    color: #17324B;
+}
+.brand span{
     color: #17324B;
 }
 .trust img{
     object-fit: contain;
     width: 95%;
 }
+.support{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 2rem;
+}
 .brand .sup-txt{
     display: flex;
     flex-direction: column;
     align-items: center;
+   
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+   flex-wrap: wrap;
+}
+
+.service-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+gap: 0.3rem;
+    border-right: 1px solid rgb(209, 209, 209);
+
+    width: 15%;
+}
+.service-div span{
+    font-size: 0.9rem;
+}
+.last-ser{
+    border-right: none;
 }
