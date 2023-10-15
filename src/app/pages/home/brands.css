@@ -1,0 +1,18 @@
+.trust{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .brand p , strong{
+    font-size: 1.3rem;
+    color: #17324B;
+}
+.trust img{
+    object-fit: contain;
+    width: 95%;
+}
+.brand .sup-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

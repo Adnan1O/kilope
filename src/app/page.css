@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-weight: 700;
 }
 .navbar{
@@ -33,7 +34,11 @@
 .navbar  .login-area{
     display: flex;
     gap: 2rem;
+    align-items: center;
     margin-top: 1rem;
+}
+.navbar  .login-area .menu{
+    display: none;
 }
 .navbar  .login-area .login{
     background-color: transparent;
@@ -62,7 +67,7 @@ width: 8.5rem;
 
     display: flex;
     flex-direction: column;
-  gap: 0.5rem;
+    gap: 0.5rem;
     padding-left: 11rem;
 }
 .banner .b-txt h2{
@@ -89,7 +94,93 @@ width: 8.5rem;
    height: 450px;
    width: 600px;
  object-fit: contain;
+}
+@media (max-width: 1200px) {
+    .banner .b-txt{
 
+       
+        padding-left: 7rem;
+    }
+}
+@media (max-width: 1000px) {
+    .banner .b-txt{
 
+       
+        padding-left: 3rem;
+    }
+}
+@media (max-width: 900px) {
+    .navbar{
 
+        padding: 0 1rem;
+    }
+    .navbar .logo-area img{
+     
+        width: 5rem;
+  
+    }
+   .banner{
+    display: flex;
+    flex-direction: column-reverse;
+
+    height: 500px;
+   }
+   .banner .b-img img{
+    height: 200px;
+    width: 400px;
+
+ }
+ .banner .b-txt h2{
+    font-weight: 300;
+    font-size: 1.5rem;
+   
+}
+.banner .b-txt p{
+    font-size: 0.7;
+    font-weight: 300;
+    width: 80%;
+}
+.banner .b-txt{       
+    padding-left: 0rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+}
+
+@media (max-width: 750px) {
+    .links-area {
+        display: none;
+    }  
+    .navbar  .login-area .menu{
+        display: block;
+        cursor: pointer;
+    }
+
+  
+}
+
+@media (max-width: 500px) {
+    .banner .b-img img{
+        height: 180px;
+        width: 350px;
+   
+    }
+    .banner{
+
+    padding-top: 0rem;
+    height: 450px;
+    }
+    .navbar  .login-area{
+    gap: 1rem;     
+    }
+.navbar  .login-area .demo{  
+    width: 6rem;
+    font-size: 0.6rem;      
+    }
+    .offer-bar{
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0 1rem;
+    }
 }
