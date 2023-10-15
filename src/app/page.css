@@ -1,0 +1,95 @@
+.offer-bar{
+    background-color: #05256A;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00AC6B;
+    color: white;
+    padding: 0 3rem;
+}
+.navbar .logo-area img{
+    height: 2.5rem;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+.navbar .links-area ul{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.navbar .links-area li{
+   list-style: none;
+   font-size: 0.8rem;
+}
+.navbar  .login-area{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.navbar  .login-area .login{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.navbar  .login-area .demo{
+height: 2.5rem;
+width: 8.5rem;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+  color: white;
+}
+/* Banner starts here  */
+.banner{
+    background-color: #00AC6B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 400px;
+}
+.banner .b-txt{
+
+    display: flex;
+    flex-direction: column;
+  gap: 0.5rem;
+    padding-left: 11rem;
+}
+.banner .b-txt h2{
+    font-weight: 300;
+    font-size: 2.2rem;
+   
+}
+.banner .b-txt h2 span{
+    font-weight: 700;
+}
+.banner .b-txt p{
+    font-size: 0.7;
+    font-weight: 300;
+}
+.banner .b-txt button{
+    height: 2.7rem;
+    width: 6rem;
+    border-radius: 50px;
+    border: none;
+    background-color: #2C71F0;
+    color: white;
+}
+.banner .b-img img{
+   height: 450px;
+   width: 600px;
+ object-fit: contain;
+
+
+
+}

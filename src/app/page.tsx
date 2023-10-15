@@ -1,94 +1,59 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-
+// import styles from './page.module.css'
+import "./page.css"
+import Image from "next/image"
+import kipope from "./KiloPe2 1.png"
+import banner from './banner.png'
+import brands from "./brands.png"
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+    <main>
+      <div className='home-page'>
+   <div className="offer-bar">
+    <p>Claim your free $1,000 when you combine global payroll and HR.</p>
+  </div>
+  <div className="navbar">
+    <div className="logo-area">
+    <Image
+  src={kipope}
+  alt="Kilope-logo"/>
+  </div>
+  <div className="links-area">
+    <ul>
+      <li>Platform</li>
+      <li>Use Cases</li>
+      <li>Why Deel</li>
+      <li>Pricing</li>
+      <li>Resources</li>
+    </ul>
+  </div>
+  <div className="login-area">
+    <button className="login">Login</button>
+    <button className="demo">Request A Demo</button>
+  </div>
+  </div>
+  <div className="banner">
+    <div className="b-txt">
+    <h2>Payroll, HR, and <br />
+        compliance for <br /> <span>global </span>teams </h2>
+<p>Deel helps thousands of companies expand globally with
+unmatched speed and flexibility. It's global hiring, HR and
+payroll in just one system.</p>
+<button>Get Started</button>
+    </div>
+    <div className="b-img">
+<Image
+src={banner}
+alt=""
+/>
+    </div>
+  </div>
+  <div className="trust">
+    <p>Trusted by global leaders across industries</p>
+    <Image
+    src={brands}
+    alt=""
+    />
+  </div>
       </div>
     </main>
   )
