@@ -7,6 +7,8 @@ import s2 from "./img/s2.png"
 import s3 from "./img/s3.png"
 import s4 from "./img/s4.png"
 import e1 from "./img/e1.png"
+import e2 from "./img/e2.png"
+import e3 from "./img/e3.png"
 
 const Brand = () => {
   return (
@@ -70,22 +72,22 @@ const Brand = () => {
         </div>
         <div className="employees-area">
         <Image
-        src={e1}
+        src={e2}
         alt=''
         />
-        <span>Experience same</span>
-        <p>Easily hire and pay employees where you
-             don’t have entities with Deel’s worldwide infrastructure.</p>
+        <span>Contractors</span>
+        <p>Work with contractors anywhere with built-in compliance,
+      automated invoicing, and effortless global payments.</p>
 
         </div>
         <div className="employees-area">
         <Image
-        src={e1}
+        src={e3}
         alt=''
         />
-        <span>Experience same</span>
-        <p>Easily hire and pay employees where you
-             don’t have entities with Deel’s worldwide infrastructure.</p>
+        <span>Direct employees</span>
+        <p>Quickly onboard and pay direct employees hired through
+your entities to consolidate processes.</p>
 
         </div>
     </div>
