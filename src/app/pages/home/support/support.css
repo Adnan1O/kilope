@@ -1,0 +1,58 @@
+.support{
+    display: flex;
+}
+.support-area{
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.support-area .s-one{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color:"#317324B";
+}
+.support-area .s-one p{
+    border-left: 1px solid rgb(224, 224, 224);
+    padding-left: 1rem;
+}
+.support-area .s-one img{
+
+    height: 4rem;
+    width: 7rem;
+    object-fit: contain;
+}
+.support .s-two{
+    display: flex;
+border-top: 1px solid rgb(224, 224, 224);
+padding-top: 2rem;
+flex-wrap: wrap;
+gap: 2rem;
+}
+.s-two .sup-item{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    width: 46%;
+}
+.s-two .sup-item h3{
+    font-weight: 600;
+    color: #17324B;
+    font-size: 1.4rem;
+}
+.s-two .sup-item span{
+    color: #414F5C;
+    font-size: 0.8rem;
+}
+.s-two .sup-item button{
+    height: 2rem;
+    width: 9rem;
+    border: none;
+    background-color: #13B68F;
+    color: white;
+    border-radius: 0.2rem;
+    font-weight: 600;
+}

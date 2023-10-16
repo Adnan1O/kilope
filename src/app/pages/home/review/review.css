@@ -1,0 +1,43 @@
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBF5FE;
+    height: 300px;
+    padding: 3rem 0;
+}
+.r-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.r-heading h3{
+font-weight: 600;
+font-size: 1.5rem;
+text-align: center;
+color: #15357A;
+}
+.tab-btns{
+    background-color: white;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem ;
+    border-radius: 50px;
+    gap: 1rem;
+}
+.tab-btns button{
+
+    border-radius: 50px;
+    border: none;
+    padding: 0.3rem;
+    color:#313CBD ;
+    background-color: #EBF5FE;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+.tab-btns .active-btn{
+    background-color: #313CBD;
+    color: white;
+}

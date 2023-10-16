@@ -6,6 +6,8 @@ import Hire from "./hire"
 import "./home.css"
 import International from './international/international'
 import Tools from './tools/tools'
+import Support from './support/support'
+import Review from './review/review'
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
    <Hire/>
    <International/>
    <Tools/>
+   <Support/>
+   <Review/>
     </div>
   )
 }
