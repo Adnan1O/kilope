@@ -1,7 +1,101 @@
 .footer{
     display: flex;
+
 justify-content: center;}
 .footer-area{
     width: 80%;
-    background-color: thistle;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+.footer-area .f-s1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-area .f-s1 .logo-area{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+ 
+}
+.footer-area .f-s1 .logo-area img{
+
+    object-fit: contain;
+    height: 5rem;
+    width: 8rem;
+}
+.footer-area .f-s1 .logo-area span{
+    font-size: 0.8rem;
+    padding-left: 1rem;
+}
+.footer-area .f-s1 .socials-area{
+   
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+.f-s2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: 1px solid rgb(224, 224, 224);
+    padding-top: 2rem;
+}
+.f-s2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.f-s2 li{
+    list-style: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.f-s2 .heading{
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.f-s2 ul .input-btn {
+    border: 1px solid rgb(224, 224, 224);
+    width: 12rem;
+    display: flex;
+    height: 2.5rem;
+    align-items: center;
+}
+.f-s2 ul .input-btn button{
+    height:85%;
+    color: white;
+    border: none;
+    background-color: #13B68F;
+    border-radius: 0.2rem;
+    width: 40%;
+}
+.f-s2 ul .input-btn input {
+border: none;
+background-color: transparent;
+
+width: 60%;
+outline: none;
+padding-left: 0.5rem;
+}
+.f-s3{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(224, 224, 224);
+    padding-top: 2rem;
+    color: #8B99A5;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+.f-s3 span{
+    font-size: 0.8rem;
+}
+.f-s3 .copyright{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+  
 }
