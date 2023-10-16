@@ -1,0 +1,38 @@
+.best{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6A30B6;
+    height: 16rem;
+}
+.best img{
+
+    object-fit: contain;
+    height: 16rem;
+    width: auto;
+
+}
+.best-txt{
+    
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    height: 100%;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+}
+.best-txt h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.best-txt button{
+    width: 8rem;
+    height: 2rem;
+    background-color: #13B68F;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+}

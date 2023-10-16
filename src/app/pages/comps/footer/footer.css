@@ -1,0 +1,7 @@
+.footer{
+    display: flex;
+justify-content: center;}
+.footer-area{
+    width: 80%;
+    background-color: thistle;
+}

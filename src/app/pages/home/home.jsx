@@ -8,6 +8,8 @@ import International from './international/international'
 import Tools from './tools/tools'
 import Support from './support/support'
 import Review from './review/review'
+import Best from './best/best'
+import Footer from '../comps/footer/footer'
 
 const Home = () => {
   return (
@@ -20,6 +22,8 @@ const Home = () => {
    <Tools/>
    <Support/>
    <Review/>
+   <Best/>
+   <Footer/>
     </div>
   )
 }
