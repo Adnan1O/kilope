@@ -99,3 +99,9 @@ padding: 0 1rem;
     border-radius: 50px;
     cursor: pointer;
 }
+@media (max-width:500px) {
+    .tool-heading{
+       display: flex;
+       flex-direction: column;
+    }
+}

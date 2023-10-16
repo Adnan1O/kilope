@@ -29,3 +29,26 @@
     object-fit: contain;
     
 }
+@media (max-width:500px) {
+    .international .int-heading{
+ 
+       text-align: center;
+    }
+    .international .int-heading h3{
+     flex-direction: column;
+
+    }
+    .international .int-heading svg{
+        display: none;
+    }
+    .international{
+        display: flex;
+        
+        gap: 1rem;
+        padding-top: 0.5rem;
+    }
+    .international .int-res img{
+        height: 9rem;
+     
+    }
+}

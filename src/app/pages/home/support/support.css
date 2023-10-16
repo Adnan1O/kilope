@@ -56,3 +56,14 @@ gap: 2rem;
     border-radius: 0.2rem;
     font-weight: 600;
 }
+@media (max-width:500px) {
+    .support .s-two{
+       flex-direction: column;
+    gap: 2rem;
+    }
+    .s-two .sup-item{
+        align-items: center;
+        width: 96%;
+        text-align: center;
+    }
+}

@@ -57,3 +57,34 @@ border-radius: 0.5rem;
     border-radius: 0.2rem;
     color: white;
 }
+
+@media (max-width:500px) {
+    .hire-area{
+        width: 95%;    
+        padding: 0.5rem ; 
+    }
+    .hire-f{      
+       flex-direction: column-reverse;
+    }
+    .hire-f .hire-text h4{
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+    
+    .hire-f .hire-img img{
+        width: 20rem;     
+    }
+    .s-area{
+      flex-direction: column;
+    }
+    .s-area .employee{
+        width: 95%;
+        text-align: center;
+    }
+    .s-area .employee button{
+     margin-left: 8%;
+    }
+}
+
+

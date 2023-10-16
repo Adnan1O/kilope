@@ -36,3 +36,17 @@ justify-content: center;
     background-color: #2C71F0;
     color: white;
 }
+@media (max-width:500px) {
+    .hr .hr-area{
+       flex-direction: column-reverse;
+    }
+    .hr .hr-area .h-txt{
+        align-items: center;
+        text-align: center;
+          padding-left: 0rem;
+      }
+      .hr .hr-area .h-txt h4{
+        font-size: 1.5rem;
+      
+    }
+}
