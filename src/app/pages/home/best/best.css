@@ -36,3 +36,20 @@
     border: none;
     border-radius: 0.2rem;
 }
+@media (max-width:500px) {
+    .best{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .best-txt{
+        width: 90%;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+    }
+    .best-txt h3{
+        font-size: 1.5rem;
+      
+    }
+}

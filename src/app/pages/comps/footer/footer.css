@@ -42,6 +42,7 @@ justify-content: center;}
     justify-content: space-between;
     border-top: 1px solid rgb(224, 224, 224);
     padding-top: 2rem;
+    flex-wrap: wrap;
 }
 .f-s2 ul{
     display: flex;
@@ -98,4 +99,18 @@ padding-left: 0.5rem;
     justify-content: space-between;
     font-size: 0.9rem;
   
+}
+
+@media (max-width:500px) {
+    .f-s2{
+        gap: 1rem;
+    }
+    .f-s2 ul{
+       width: 100%;
+       align-items: center;
+     
+    }
+    .f-s3{
+        text-align: center;
+    }
 }

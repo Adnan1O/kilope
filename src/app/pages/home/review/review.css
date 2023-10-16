@@ -79,3 +79,38 @@ gap: 1rem;
     width: 25rem;
     object-fit: contain;
 }
+@media(max-width:500px){
+    .r-heading{
+       width: 80%;
+    
+    }
+    .tab-btns{
+        flex-wrap: wrap;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+    .tab-btns button{
+
+        border-radius: 50px;
+        border: none;
+        padding: 0.2rem;
+        color:#313CBD ;
+        background-color: #EBF5FE;
+        cursor: pointer;
+        font-size: 0.8rem;
+    }
+    .video-area{
+        flex-direction: column-reverse;
+        width: 80%;
+        gap: 2rem;
+  
+    }
+    .video-area .video-txt{
+    
+    align-items: center;
+
+    }
+
+}
