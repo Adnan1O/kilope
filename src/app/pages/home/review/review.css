@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #EBF5FE;
-    height: 300px;
+    gap: 3rem;
     padding: 3rem 0;
 }
 .r-heading{
@@ -40,4 +40,42 @@ color: #15357A;
 .tab-btns .active-btn{
     background-color: #313CBD;
     color: white;
+}
+.video-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 5rem;
+}
+.video-area .video-txt{
+    display: flex;
+    flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+}
+.video-area .video-txt h4{
+    font-size: 1.5rem;
+    color: #15357A;
+    font-weight: 600;
+}
+.video-area .video-txt span{
+  font-size: 0.8rem;
+}
+.video-area .video-txt strong{
+    font-size: 0.9rem;
+}
+.video-area .video-txt button{
+   background-color: transparent;
+   border: none;
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   color: #2C71F0;
+   margin-top: 1rem;
+}
+.video-area img{
+    height: 16rem;
+    width: 25rem;
+    object-fit: contain;
 }

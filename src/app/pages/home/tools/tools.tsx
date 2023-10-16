@@ -29,9 +29,9 @@ compliantly in just 5 minutes.</p>
     <div className="ser-list">
         <div className="ser-item">
         <Image
-    src={t1}
-    alt=''
-    />
+        src={t1}
+        alt=''
+        />
     <h3>Use Deel HR free to
 manage your global
 team in one system</h3>
