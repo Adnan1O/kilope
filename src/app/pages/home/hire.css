@@ -1,0 +1,59 @@
+.Hire{
+    display: flex;
+    justify-content: center;
+}
+.hire-area{
+    background-color: #132F4E;
+    width: 80%;
+    padding: 1rem ;
+    border-radius: 0.5rem;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+.hire-f{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.hire-f .hire-text h4{
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+}
+
+.hire-f .hire-img img{
+    height: 15rem;
+    width: 30rem;
+    object-fit: contain;
+}
+.s-area{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.employee .ep-price{
+    display: flex;
+    justify-content: space-between;
+}
+.employee .ep-price span{
+    font-weight: 600;
+}
+.s-area .employee{
+background-color: white;
+width: 50%;
+padding:  1rem ;
+gap: 1rem;
+display: flex;
+flex-direction: column;
+border-radius: 0.5rem;
+}
+.s-area .employee button{
+    height: 2rem;
+    width: 15rem;
+    background-color: #13B68F;
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+}

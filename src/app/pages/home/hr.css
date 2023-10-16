@@ -1,0 +1,38 @@
+.hr{
+    display: flex;
+
+justify-content: center;
+}
+.hr .hr-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF4E0;
+    width: 95%;
+}
+.hr .hr-area img{
+
+    height: 23rem;
+    object-fit: contain;
+
+}
+
+.hr .hr-area .h-txt{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+    padding-left: 7rem;
+}
+.hr .hr-area .h-txt h4{
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: #15357A;
+}
+.hr .hr-area .h-txt button{
+    height: 2.7rem;
+    width: 7.5rem;
+    border-radius: 50px;
+    border: none;
+    background-color: #2C71F0;
+    color: white;
+}
