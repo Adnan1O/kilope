@@ -1,0 +1,31 @@
+.international{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.international .int-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+   
+}
+.international .int-heading h3{
+    display: flex;
+    font-weight: 500;
+}
+.international .int-res{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.international .int-res img{
+    height: 15rem;
+    width: 100%;
+    object-fit: contain;
+    
+}

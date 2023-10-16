@@ -4,6 +4,8 @@ import Brand from './brand'
 import Hr from './hr'
 import Hire from "./hire"
 import "./home.css"
+import International from './international/international'
+import Tools from './tools/tools'
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
    <Brand/>
    <Hr/>
    <Hire/>
+   <International/>
+   <Tools/>
     </div>
   )
 }
