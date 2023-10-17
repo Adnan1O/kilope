@@ -89,7 +89,7 @@ const Brand = () => {
         </div>
         <div className="employees-area">
         <Image
-        src={e2}
+        src={e3}
         alt=''
         />
         <span>Contractors</span>
@@ -99,7 +99,7 @@ const Brand = () => {
         </div>
         <div className="employees-area">
         <Image
-        src={e3}
+        src={e2}
         alt=''
         />
         <span>Direct employees</span>

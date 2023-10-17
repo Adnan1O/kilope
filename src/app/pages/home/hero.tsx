@@ -1,9 +1,10 @@
+"use client";
 import React from 'react'
 import Image from "next/image"
 import kipope from "../../KiloPe2 1.png"
 import banner from "../../banner.png"
+import Resnav from './resnav';
 
-import { BiMenuAltRight } from 'react-icons/bi';
 const Hero = () => {
 
   return (
@@ -30,17 +31,18 @@ const Hero = () => {
   <div className="login-area">
     <button className="login">Login</button>
     <button className="demo">Request A Demo</button>
-    <BiMenuAltRight size={28} className='menu' />
+   <Resnav/>
+
   </div>
   </div>
   <div className="banner">
     <div className="b-txt">
     <h2>Payroll, HR, and <br />
         compliance for <br /> <span>global </span>teams </h2>
-<p>Deel helps thousands of companies expand globally with
-unmatched speed and flexibility. It's global hiring, HR and
-payroll in just one system.</p>
-<button>Get Started</button>
+    <p>KiloPe helps thousands of companies expand globally with
+    unmatched speed and flexibility. It's global hiring, HR and
+    payroll in just one system.</p>
+    <button>Get Started</button>
     </div>
     <div className="b-img">
 <Image
