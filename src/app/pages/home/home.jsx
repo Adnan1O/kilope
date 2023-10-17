@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from './hero'
-import Brand from './brand'
+import Brand from './brands/brand'
 import Hr from './hr'
 import Hire from "./hire"
 import "./home.css"

@@ -1,6 +1,9 @@
 import React from 'react'
 import Image from "next/image"
-import brands from "../../brands.png"
+import b1 from "./img/b1.png"
+import b2 from "./img/b2.png"
+import b3 from "./img/b3.png"
+import b4 from "./img/b4.png"
 import "./brands.css"
 import s1 from "./img/s1.png"
 import s2 from "./img/s2.png"
@@ -15,10 +18,24 @@ const Brand = () => {
     <div className='brand'>
         <div className="trust">
     <p>Trusted by global leaders across industries</p>
+    <div className="brand-imgs">
     <Image
-    src={brands}
+    src={b1}
     alt=""
     />
+        <Image
+    src={b2}
+    alt=""
+    />
+        <Image
+    src={b3}
+    alt=""
+    />
+        <Image
+    src={b4}
+    alt=""
+    />
+      </div>
   </div>
   <div className="support">
     <div className="sup-txt">
