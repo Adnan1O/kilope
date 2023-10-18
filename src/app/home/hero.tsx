@@ -5,7 +5,7 @@ import kipope from '../KiloPe2 1.png'
 import banner from "./img/banner.png"
 import { BiMenuAltRight } from 'react-icons/bi';
 import Resnav from '../comps/resnav/resnav';
-
+import Link from 'next/link';
 const Hero = () => {
   const [openNav, setOpenNav] = useState(false);
 
@@ -29,13 +29,13 @@ const Hero = () => {
       <li>Platform</li>
       <li>Use Cases</li>
       <li>Why Deel</li>
-      <li>Pricing</li>
+     <Link href='/pricing'><li>Pricing</li></Link> 
       <li>Resources</li>
     </ul>
   </div>
   <div className="login-area">
-    <button className="login">Login</button>
-    <button className="demo">Request A Demo</button>
+ <button className="login">Login</button>
+ <Link href='/demo'><button className="demo">Request A Demo</button></Link>
     <BiMenuAltRight size={28} className='menu' onClick={open} />
     {
    openNav &&(<Resnav close={open}/>)
