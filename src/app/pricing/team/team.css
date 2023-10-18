@@ -1,0 +1,36 @@
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    color: #15357A;
+}
+.team h2{
+    font-size: 2.2rem;
+    text-align: center;
+}
+.team .detail-area{
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+   gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.detail-area .indi-de{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 12rem;
+}
+.detail-area .indi-de img{
+    object-fit: contain;
+    height: 5rem;
+    width: 5rem;
+}
+.detail-area .indi-de span{
+
+    font-size: 0.8rem;
+}

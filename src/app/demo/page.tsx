@@ -1,14 +1,14 @@
 import React from 'react'
-import "./demo.css"
-import Hero from './hero/hero'
-import Price from './price/price'
-const Demo = () => {
+import "./demopage.css"
+import Left from './left/left'
+import Right from './right/right'
+const DemoPage = () => {
   return (
-    <div className='demo'>
-     <Hero/>
-     <Price/>
+    <div className='DemoPage'>
+    <Left/>
+    <Right/>
     </div>
   )
 }
 
-export default Demo
+export default DemoPage

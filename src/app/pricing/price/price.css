@@ -5,9 +5,12 @@
     margin: 2rem 0;
 }
 .price .price-area{
-    width: 80%;
+    width: 82%;
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .price .price-area .price-container{
     width: 320px;
@@ -19,6 +22,7 @@
     font-size: 0.9rem;
     transition: 0.2s ease-in;
     transform: translate();
+  
 }
 .price .price-area .price-container:hover{
     transform: scale(1.03);

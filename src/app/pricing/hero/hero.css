@@ -1,3 +1,4 @@
+
 .offer-bar{
     background-color: #E7F8F4;
     color: #17324B;
@@ -13,7 +14,6 @@
 }
 .offer-bar p span{
     font-weight: 700;
-
 }
 .offer-bar button{
     border: 1.5px solid #00AC6B ;
@@ -36,6 +36,7 @@
     justify-content: space-between;
     color: #17324B;
     padding: 0 3rem;
+    padding-bottom: 1rem;
 }
 .navbar .logo-area img{
     height: 2.5rem;
@@ -69,15 +70,16 @@
 }
 
 .navbar  .login-area .demo{
-height: 2.5rem;
-width: 8.5rem;
-background-color: transparent;
-border-radius: 0.2rem;
-color: white;
-border: none;
-background-color: #00AC6B;
-font-weight: 600;
-}
+    height: 2.5rem;
+    width: 8.5rem;
+      background-color: transparent;
+      border: 1px solid #17324B;
+      border-radius: 50px;
+      color: #17324B;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
 .home-page .hire{
     background-color: #519af45e;

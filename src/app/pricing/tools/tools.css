@@ -1,0 +1,120 @@
+.tools{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tools-area{
+display: flex;
+flex-direction: column;
+gap: 3rem;
+    width: 80%;
+   
+}
+.tool-heading{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.tool-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.tool-txt h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #15357A;
+}
+.tool-txt p{
+    font-size: 0.8rem;
+    color: #06122C;
+}
+.tool-heading .tool-arr{
+  
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 2rem;
+ 
+}
+
+.tool-heading .tool-arr span{
+
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid #CADBFB;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.tool-heading .tool-arr svg{
+ 
+color: #2C71F0;
+
+}
+.ser-list{
+    display: flex;
+    color: white;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.ser-list .ser-item{
+    display: flex;
+    flex-direction: column;
+    background-color: #00AC6B;
+    width: 14rem;
+    height: 17rem;
+justify-content: flex-start;
+align-items: center;
+gap: 1rem;
+padding:1rem 0;
+border-radius: 0.5rem;
+}
+.ser-list .ser-item img{
+    height: 8rem;
+    width: 80%;
+    object-fit: contain;
+}
+.ser-list .ser-item  h3{
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 0 1rem ;
+
+}
+.ser-list  .learn-more {
+    display: flex;
+width: 100%;
+
+padding: 0 1rem;
+}
+.ser-list  .learn-more p{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.end-demo-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.demo-btn{
+    height: 2.5rem;
+    width: 6rem;
+    background-color: transparent;
+    color: #2F5EDD;
+    border: 1px solid #2F5EDD;
+    border-radius: 50px;
+    cursor: pointer;
+}
+@media (max-width:500px) {
+    .tool-heading{
+       display: flex;
+       flex-direction: column;
+    }
+}

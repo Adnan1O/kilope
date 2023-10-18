@@ -13,16 +13,10 @@ const Tools = () => {
     <div className='tools'>
       <div className="tools-area">
         <div className="tool-heading">
-            <div className="tool-txt">
-                <h4>See you later 16 <br />
-different HR tools</h4>
-<p>We’re simplifying every aspect of managing a worldwide team, from benefits and
-equity to working visas and equipment. It’s one platform made to get you set up
-compliantly in just 5 minutes.</p>
-        </div>
+        
         <div className="tool-arr">  
-            <HiArrowSmallLeft className="left-arr"/>
-            <HiArrowSmallRight/>
+          <span><HiArrowSmallLeft className="left-arr"/></span>  
+          <span> <HiArrowSmallRight/></span> 
         
         </div>
     </div>

@@ -15,6 +15,7 @@ import Country from './country/country'
 const Home = () => {
   return (
     <div className='home'>
+  
    <Hero/>
    <Brand/>
    <Hr/>

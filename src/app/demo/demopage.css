@@ -1,0 +1,6 @@
+.DemoPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #15357A;
+
+}
