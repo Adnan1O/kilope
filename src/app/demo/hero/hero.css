@@ -1,0 +1,164 @@
+.offer-bar{
+    background-color: #E7F8F4;
+    color: #17324B;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.9rem;
+    gap: 1rem;
+    padding: 0.3rem;
+}
+.offer-bar p span{
+    font-weight: 700;
+
+}
+.offer-bar button{
+    border: 1.5px solid #00AC6B ;
+    background-color: transparent;
+    height: 80%;
+    color: #00AC6B;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.2rem;
+}
+.offer-bar button svg{
+    font-size: 1.4rem;
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #17324B;
+    padding: 0 3rem;
+}
+.navbar .logo-area img{
+    height: 2.5rem;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+.navbar .links-area ul{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.navbar .links-area li{
+   list-style: none;
+   font-size: 0.8rem;
+   transition: 0.2s ease-in;
+   cursor: pointer;
+}
+.navbar .links-area li:hover{
+    color: #00AC6B;
+}
+.navbar  .login-area{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.navbar  .login-area .menu{
+    display: none;
+    color: #17324B;
+
+}
+
+.navbar  .login-area .demo{
+height: 2.5rem;
+width: 8.5rem;
+background-color: transparent;
+border-radius: 0.2rem;
+color: white;
+border: none;
+background-color: #00AC6B;
+font-weight: 600;
+}
+
+.home-page .hire{
+    background-color: #519af45e;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.home-page .hire h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.home-page .hire span{
+    font-size: 0.8rem;
+}
+
+
+@media (max-width: 1200px) {
+    .banner .b-txt{
+
+       
+        padding-left: 7rem;
+    }
+}
+@media (max-width: 1000px) {
+    .banner .b-txt{
+
+       
+        padding-left: 3rem;
+    }
+}
+@media (max-width: 900px) {
+    .navbar{
+
+        padding: 0 1rem;
+    }
+    .navbar .logo-area img{
+     
+        width: 5rem;
+  
+    }
+   .banner{
+    display: flex;
+    flex-direction: column-reverse;
+
+    height: 500px;
+   }
+   .banner .b-img img{
+    height: 200px;
+    width: 400px;
+
+ }
+ .banner .b-txt h2{
+    font-weight: 300;
+    font-size: 1.5rem;
+   
+}
+.banner .b-txt p{
+    font-size: 0.7;
+    font-weight: 300;
+    width: 80%;
+}
+.banner .b-txt{       
+    padding-left: 0rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+}
+
+@media (max-width: 750px) {
+    .links-area {
+        display: none;
+    }  
+    .navbar  .login-area .menu{
+        display: block;
+        cursor: pointer;
+    }
+
+  
+}
