@@ -3,7 +3,7 @@ import React , {useState} from 'react'
 import Image from "next/image"
 import kipope from '../KiloPe2 1.png'
 import banner from "./img/banner.png"
-import { BiMenuAltRight } from 'react-icons/bi';
+// import { BiMenuAltRight } from 'react-icons/bi';
 import Resnav from '../comps/resnav/resnav';
 import Link from 'next/link';
 const Hero = () => {
@@ -36,7 +36,7 @@ const Hero = () => {
   <div className="login-area">
  <button className="login">Login</button>
  <Link href='/demo'><button className="demo">Request A Demo</button></Link>
-    <BiMenuAltRight size={28} className='menu' onClick={open} />
+    {/* <BiMenuAltRight size={28} className='menu' onClick={open} /> */}
     {
    openNav &&(<Resnav close={open}/>)
   }
