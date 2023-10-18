@@ -4,10 +4,10 @@ import Image from "next/image"
 import k from "./K.png"
 import { AiOutlineClose } from 'react-icons/ai';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
-const Resnav = ({close1}) => {
+const Resnav = ({close}) => {
 
   const closenav=()=>{
-    close1()
+    close()
   }
   return (
     <div className='resnav'>
