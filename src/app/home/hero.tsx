@@ -1,8 +1,8 @@
 "use client";
 import React , {useState} from 'react'
 import Image from "next/image"
-import kipope from "../../KiloPe2 1.png"
-import banner from "../../banner.png"
+import kipope from "../KiloPe2 1.png"
+import banner from "./img/banner.png"
 import { BiMenuAltRight } from 'react-icons/bi';
 import Resnav from '../comps/resnav/resnav';
 

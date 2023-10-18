@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image"
 import "./footer.css"
-import logo from "../../../KiloPe2 1.png"
+import logo from "../../KiloPe2 1.png"
 import { BiLogoFacebook } from 'react-icons/bi';
 import { BiLogoLinkedin } from 'react-icons/bi';
 import { BiLogoTwitter } from 'react-icons/bi';

@@ -2,7 +2,7 @@
 import "./page.css"
 
 
-import Home1 from "./pages/home/home"
+import Home1 from "./home/home"
 
 
 export default function Home() {
