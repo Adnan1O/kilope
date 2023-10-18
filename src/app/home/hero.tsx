@@ -26,7 +26,7 @@ const Hero = () => {
   </div>
   <div className="links-area">
     <ul>
-      <li>Platform</li>
+      <li onClick={()=>console.log("object")}>Platform</li>
       <li>Use Cases</li>
       <li>Why Deel</li>
      <Link href='/pricing'><li>Pricing</li></Link> 
