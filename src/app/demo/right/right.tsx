@@ -1,5 +1,6 @@
 import React from 'react'
 import "./right.css"
+import { GoLinkExternal } from 'react-icons/go';
 const Right = () => {
   return (
     <div className='right'>
@@ -23,6 +24,14 @@ const Right = () => {
 
 </select>
 
+<div className="policy-area">
+  <span>We respect your data. By submitting this form, you agree that we will contact you in relation to our</span>
+  <span>products and services, in accordance with our 
+    <p>Privacy policy<GoLinkExternal/></p> </span>
+<button>Talk to an expert</button>
+<span>Contractor or employee? <p>Sign up here <GoLinkExternal/></p></span>
+
+</div>
      
     </form>
     </div>

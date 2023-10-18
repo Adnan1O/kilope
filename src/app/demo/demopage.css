@@ -1,6 +1,10 @@
 .DemoPage{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     color: #15357A;
-
+}
+@media (max-width:1100px) {
+    .DemoPage{
+       flex-direction: column;
+       gap: 1rem;
+    }
 }
