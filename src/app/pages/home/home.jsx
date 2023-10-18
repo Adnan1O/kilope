@@ -10,6 +10,7 @@ import Support from './support/support'
 import Review from './review/review'
 import Best from './best/best'
 import Footer from '../comps/footer/footer'
+import Country from './country/country'
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
    <Tools/>
    <Support/>
    <Review/>
+   <Country/>
    <Best/>
    <Footer/>
     </div>

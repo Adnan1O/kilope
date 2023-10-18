@@ -1,0 +1,45 @@
+.img-div{
+    position: relative;
+    color: white;
+}
+.img-div img { 
+height: 20rem;
+width: 15rem;
+object-fit: contain;
+
+}
+.img-div .overlay-txt{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15rem;
+}
+.img-div .overlay-txt .flag-img{
+    height: 2.3rem;
+    width: 2.3rem;
+    object-fit: contain;
+    border: 0.3rem solid white;
+    border-radius: 100px;
+    outline: 1px solid black;
+    position: absolute;
+    bottom: -15px;
+    right: 0.6rem;
+}
+.img-div .overlay-txt .c-i-area{
+    display: flex;
+    justify-content: space-between;
+}
+.img-div .overlay-txt .c-i-area .bottom-part{
+    display: flex;
+    gap: 1rem;
+}
+.img-div .overlay-txt .c-i-area .bottom-part span{
+    font-size: 0.9rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 50px;
+}
