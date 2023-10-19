@@ -1,4 +1,3 @@
-
 .offer-bar{
     background-color: #E7F8F4;
     color: #17324B;
@@ -30,7 +29,6 @@
     font-size: 1.4rem;
 }
 .navbar{
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
