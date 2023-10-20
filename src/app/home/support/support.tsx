@@ -27,14 +27,14 @@ global employee and contractor lifecycle.
 <button>Request demo</button>
     </div>
     <div className="sup-item">
-        <h3>Global People Ops <br />
+        <h3>Talent Discovery
 Partner</h3>
 <span>
-Managing a globally distributed team can be challenging, but Skuad has you
-covered. Design your talent requirements, streamline virtual onboarding,
-understand local employment and strategize people management with
-Skuad's people ops experts. Skuad partners with you at every step of your
-global employee and contractor lifecycle.
+Find exceptional talent without letting the challenges of remote hiring get in
+the way. Whether you are looking for employees or contractors, our talent
+experts work with you to source the best global talent. Simplify every aspect
+of talent discovery and recruitment with KiloPe global employment
+infrastructure.
 </span>
 <button>Request demo</button>
     </div>

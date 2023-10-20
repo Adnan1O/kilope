@@ -1,7 +1,21 @@
 .country{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.country .c-txt{
+    background-color: aqua;
+    width: 50%;
+    text-align: center;
+}
+.country .c-txt h3{
+    font-size: 2rem;
+    color: #15357A;
+    font-weight: 600;
+}
+.country .c-txt span{
+    font-size: 0.8rem;
 }
 .image-area{
     display: flex;
@@ -61,4 +75,16 @@ object-fit: contain;
 .img-div-type-2{
    margin-top: 3rem;
 
+}
+@media (max-width:500px) {
+    .country .c-txt{
+       
+        width: 90%;
+    
+    }
+    .country .c-txt h3{
+        font-size: 1.5rem;
+        
+    }
+  
 }

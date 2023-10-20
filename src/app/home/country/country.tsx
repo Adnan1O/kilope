@@ -9,6 +9,12 @@ import "./country.css"
 const Country = () => {
   return (
     <div className='country'>
+      <div className="c-txt">
+        <h3>There’s a whole world out there. <br />
+Why not hire anywhere?</h3>
+<span>Tap into the most extensive coverage on the market and hire anywhere in five minutes
+using our 100+ KiloPe entities and visa support. Yep, your talent pool just got infinite.</span>
+      </div>
     <div className="image-area">
       <div className="img-div" >
   <Image src={c1} alt=''/>

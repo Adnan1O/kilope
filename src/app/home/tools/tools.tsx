@@ -56,9 +56,9 @@ house visa support</h3>
     src={t3}
     alt=''
     />
-    <h3>Use Deel HR free to
-manage your global
-team in one system</h3>
+    <h3>Send equipment
+worldwide, without
+the hassle</h3>
 <div className="learn-more">
     <p>Learn More     <HiArrowSmallRight/> </p>
 </div>
@@ -68,9 +68,9 @@ team in one system</h3>
     src={t4}
     alt=''
     />
-    <h3>Use Deel HR free to
-manage your global
-team in one system</h3>
+    <h3>Offer country-specific
+benefits at
+competitive rates</h3>
 <div className="learn-more">
     <p>Learn More     <HiArrowSmallRight/> </p>
 </div>

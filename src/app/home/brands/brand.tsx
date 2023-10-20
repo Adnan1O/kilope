@@ -84,7 +84,7 @@ const Brand = () => {
         />
         <span>Experience same</span>
         <p>Easily hire and pay employees where you
-             don’t have entities with Deel’s worldwide infrastructure.</p>
+             don’t have entities with Kilope’s worldwide infrastructure.</p>
 
         </div>
         <div className="employees-area">

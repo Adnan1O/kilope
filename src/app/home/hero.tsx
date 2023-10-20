@@ -5,6 +5,7 @@ import kipope from '../KiloPe2 1.png'
 import banner from "./img/banner.png"
 // import { BiMenuAltRight } from 'react-icons/bi';
 import Resnav from '../comps/resnav/resnav';
+import { GoLinkExternal } from 'react-icons/go';
 import Link from 'next/link';
 const Hero = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -16,7 +17,7 @@ const Hero = () => {
     <div>
       <div className='home-page'>
    <div className="offer-bar">
-    <p>Claim your free $1,000 when you combine global payroll and HR.</p>
+    <p>Claim your free $1,500 when you combine global payroll and HR. <span>Learn more <GoLinkExternal/></span> </p>
   </div>
   <div className="navbar">
     <div className="logo-area">
@@ -28,7 +29,7 @@ const Hero = () => {
     <ul>
       <li onClick={()=>console.log("object")}>Platform</li>
       <li>Use Cases</li>
-      <li>Why Deel</li>
+      <li>Why Kilope</li>
      <Link href='/pricing'><li>Pricing</li></Link> 
       <li>Resources</li>
     </ul>
