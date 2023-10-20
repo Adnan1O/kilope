@@ -46,8 +46,8 @@ const Hero = () => {
   <div className="banner">
 
     <div className="b-txt">
-    <h2>Payroll, HR, and <br />
-        compliance for <br /> <span>global </span>teams </h2>
+    <h2>Payroll, HR, and 
+        compliance for <span>global </span>teams </h2>
     <p>KiloPe helps thousands of companies expand globally with
     unmatched speed and flexibility. It's global hiring, HR and
     payroll in just one system.</p>
