@@ -18,7 +18,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #00AC6B;
+    background-color: #8995FF;
     color: white;
     padding: 0 3rem;
 }
@@ -60,7 +60,7 @@ width: 8.5rem;
 }
 /* Banner starts here  */
 .banner{
-    background-color: #00AC6B;
+    background-color: #8995FF;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -77,7 +77,7 @@ width: 8.5rem;
 }
 .banner .b-txt h2{
     font-weight: 300;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
    
 }
 .banner .b-txt h2 span{
@@ -96,8 +96,8 @@ width: 8.5rem;
     color: white;
 }
 .banner .b-img img{
-   height: 450px;
-   width: 600px;
+   height: 340px;
+   width: 650px;
  object-fit: contain;
 }
 @media (max-width: 1200px) {
