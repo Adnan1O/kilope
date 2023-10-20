@@ -94,21 +94,24 @@ width: 8.5rem;
     justify-content: center;
     color: white;
     height: 500px;
+    position: relative;
 }
 .banner .b-txt{
 
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding-left: 2rem;
-  
+
+
 }
 .banner .b-txt h2{
     font-weight: 900;
     font-size:3.5rem;
     word-spacing: 1px;
-
-   
+    position: absolute ;
+    width: 45%;
+    top: 3rem;
+left: 7rem;
 }
 .banner .b-txt h2 span{
     font-weight: 700;
@@ -118,7 +121,10 @@ width: 8.5rem;
     font-weight: 500;
     word-spacing: 1px;
     letter-spacing: 1.5px;
-  
+    position: absolute ;
+    width: 40%;
+    bottom: 11rem;
+    left: 7rem;
 }
 .banner .b-txt button{
     height: 2.7rem;
@@ -127,6 +133,9 @@ width: 8.5rem;
     border: none;
     background-color: #2C71F0;
     color: white;
+    position: absolute ;
+    bottom: 7rem;
+    left: 7rem;
 }
 .banner .b-img img{
    height: 500px;
@@ -135,18 +144,38 @@ width: 8.5rem;
 
 }
 @media (max-width: 1200px) {
-    .banner .b-txt{
-
+    .banner .b-txt h2{
        
-        padding-left: 7rem;
+     
+font-size: 2.5rem;
+    left: 2rem;
+    top: 6rem;
     }
+  
+    .banner .b-txt p{
+      
+
+        left: 2rem;
+    }
+    .banner .b-txt button{
+      
+
+        left: 2rem;
+    }
+    .banner .b-img img{
+        height: 400px;
+        width: 700px;
+
+     
+     }
 }
 @media (max-width: 1000px) {
-    .banner .b-txt{
-
-       
-        padding-left: 3rem;
-    }
+    .banner .b-img img{
+  
+        width: 600px;
+ 
+     
+     }
 }
 @media (max-width: 900px) {
     .navbar{
@@ -158,6 +187,26 @@ width: 8.5rem;
         width: 5rem;
   
     }
+    .banner .b-txt h2{
+   
+    position: relative ;
+    top: 0rem;
+    left: 0rem;
+    }
+    .banner .b-txt p{
+    
+        position: relative ;
+      
+        bottom: 0rem;
+        left: 0rem;
+    }
+    .banner .b-txt button{
+        position: relative ;
+      
+        bottom: 0rem;
+        left: 0rem;
+    }
+
    .banner{
     display: flex;
     flex-direction: column-reverse;
@@ -170,13 +219,11 @@ width: 8.5rem;
 
  }
  .banner .b-txt h2{
-    font-weight: 300;
-    font-size: 1.5rem;
-   
+    font-size: 2rem;
+   width: 80%;
 }
 .banner .b-txt p{
     font-size: 0.7;
-    font-weight: 300;
     width: 80%;
 }
 .banner .b-txt{       
