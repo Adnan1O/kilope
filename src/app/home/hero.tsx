@@ -14,7 +14,7 @@ const Hero = () => {
     setOpenNav(!openNav)
   }
   return (
-    <div>
+    <div className='hero'>
       <div className='home-page'>
    <div className="offer-bar">
     <p>Claim your free $1,500 when you combine global payroll and HR. <span>Learn more <GoLinkExternal/></span> </p>

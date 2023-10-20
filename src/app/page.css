@@ -26,15 +26,28 @@ button{
     cursor: pointer;
 
 }
-.navbar{
-    
+
+.hero{
+
+}
+.navbar{   
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #8995FF;
     color: white;
     padding: 0 3rem;
+    transition: 0.2s ease-in-out;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 5rem;
 }
+/* .navbar:hover{
+background-color: white;
+color: #05256A;
+} */
+
 .navbar .logo-area img{
     height: 2.5rem;
     object-fit: contain;
@@ -48,6 +61,7 @@ button{
 .navbar .links-area li{
    list-style: none;
    font-size: 0.8rem;
+   cursor: pointer;
 }
 .navbar  .login-area{
     display: flex;
@@ -79,18 +93,18 @@ width: 8.5rem;
     align-items: center;
     justify-content: center;
     color: white;
-    height: 400px;
+    height: 500px;
 }
 .banner .b-txt{
 
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding-left: 11rem;
+    padding-left: 5rem;
 }
 .banner .b-txt h2{
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size:3.2rem;
    
 }
 .banner .b-txt h2 span{
@@ -99,6 +113,8 @@ width: 8.5rem;
 .banner .b-txt p{
     font-size: 0.7;
     font-weight: 300;
+   
+  
 }
 .banner .b-txt button{
     height: 2.7rem;
@@ -109,9 +125,10 @@ width: 8.5rem;
     color: white;
 }
 .banner .b-img img{
-   height: 340px;
-   width: 650px;
- object-fit: contain;
+   height: 500px;
+   width: 800px;
+    object-fit: contain;
+
 }
 @media (max-width: 1200px) {
     .banner .b-txt{
