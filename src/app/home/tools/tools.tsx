@@ -21,8 +21,12 @@ equity to working visas and equipment. It’s one platform made to get you set u
 compliantly in just 5 minutes.</p>
         </div>
         <div className="tool-arr">  
+        
+        <span>
             <HiArrowSmallLeft className="left-arr"/>
-            <HiArrowSmallRight/>
+            </span>
+            <span>
+            <HiArrowSmallRight/></span>
         
         </div>
     </div>
