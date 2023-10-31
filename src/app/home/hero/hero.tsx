@@ -3,7 +3,7 @@ import Image from "next/image"
 import banner from "./img/banner.png"
 // import { BiMenuAltRight } from 'react-icons/bi';
 import { GoLinkExternal } from 'react-icons/go';
-import Navbar from "../../comps/Navbar/navbar"
+import Navbar from "../../comps/navbar/navbar"
 import "./hero.css"
 const Hero = () => {
 
