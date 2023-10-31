@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/home/hero.tsx", "src/app/comps/resnav/resnav.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/home/hero/hero.tsx", "src/app/comps/resnav/resnav.jsx"],
   "exclude": ["node_modules"]
 }

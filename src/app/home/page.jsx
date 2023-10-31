@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from './hero'
+import Hero from './hero/hero'
 import Brand from './brands/brand'
 import Hr from './hr'
 import Hire from "./hire"

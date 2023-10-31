@@ -1,0 +1,113 @@
+
+.offer-bar{
+    background-color: #05256A;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+}
+.offer-bar p{
+    display: flex;
+    gap: 1rem;
+}
+.offer-bar span{
+    font-weight: 500;
+     display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+
+}
+
+/* .hero{
+
+} */
+
+/* Banner starts here  */
+.banner{
+    background-color: #8995FF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 500px;
+    position: relative;
+}
+.banner .b-txt{
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+
+}
+.banner .b-txt h2{
+    font-weight: 900;
+    font-size:3.5rem;
+    word-spacing: 1px;
+    position: absolute ;
+    width: 45%;
+    top: 3rem;
+left: 7rem;
+}
+.banner .b-txt h2 span{
+    font-weight: 700;
+}
+.banner .b-txt p{
+    font-size: 1;
+    font-weight: 500;
+    word-spacing: 1px;
+    letter-spacing: 1.5px;
+    position: absolute ;
+    width: 40%;
+    bottom: 11rem;
+    left: 7rem;
+}
+.banner .b-txt button{
+    height: 2.7rem;
+    width: 6rem;
+    border-radius: 50px;
+    border: none;
+    background-color: #2C71F0;
+    color: white;
+    position: absolute ;
+    bottom: 7rem;
+    left: 7rem;
+}
+.banner .b-img img{
+   height: 500px;
+   width: 800px;
+    object-fit: contain;
+
+}
+@media (max-width: 1200px) {
+    .banner .b-txt h2{
+       
+     
+font-size: 2.5rem;
+    left: 2rem;
+    top: 6rem;
+    }
+  
+    .banner .b-txt p{
+      
+
+        left: 2rem;
+    }
+    .banner .b-txt button{
+      
+
+        left: 2rem;
+    }
+    .banner .b-img img{
+        height: 400px;
+        width: 700px;
+
+     
+     }
+}
