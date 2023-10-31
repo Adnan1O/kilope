@@ -1,6 +1,6 @@
 "use client";
 import React, {useState} from 'react'
-import "./navbar.css"
+import "./Navbar.css"
 import Link from 'next/link';
 import kipope from '../images/KiloPe2 1.png'
 import Resnav from '../resnav/resnav';
