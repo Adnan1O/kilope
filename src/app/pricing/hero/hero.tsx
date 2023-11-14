@@ -6,7 +6,7 @@ import { BiMenuAltRight } from 'react-icons/bi';
 import Resnav from '../../comps/resnav/resnav';
 import "./hero.css"
 import { BsArrowRightShort } from 'react-icons/bs';
-import Navbar from '@/app/comps/navbar/navbar';
+import Navbar from '../../comps/navbar/navbar';
 const Hero = () => {
   const [openNav, setOpenNav] = useState(false);
 
