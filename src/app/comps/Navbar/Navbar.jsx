@@ -6,7 +6,7 @@ import kipope from '../images/KiloPe2 1.png'
 import Resnav from '../resnav/resnav';
 import Image from 'next/image';
 
-const Navbar = () => {
+const Navbar1 = () => {
   const [openNav, setOpenNav] = useState(false);
 
   const open =()=>{
@@ -41,4 +41,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar1
