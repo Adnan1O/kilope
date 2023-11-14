@@ -4,7 +4,7 @@ import banner from "./img/banner.png"
 // import { BiMenuAltRight } from 'react-icons/bi';
 import { GoLinkExternal } from 'react-icons/go';
 import "./hero.css"
-import Navbar1 from "../../comps/navbar/navbar"
+import Navbar1 from "../../comps/Navbar/Navbar"
 const Hero = () => {
 
   return (
