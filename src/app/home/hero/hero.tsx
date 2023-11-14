@@ -10,10 +10,10 @@ const Hero = () => {
   return (
     <div className='hero'>
       <div className='home-page'>
-   <div className="offer-bar">
+   {/* <div className="offer-bar">
     <p>Claim your free $1,500 when you combine global payroll and HR. <span>Learn more <GoLinkExternal/></span> </p>
   </div>
-<Navbar1/>
+<Navbar1/> */}
   <div className="banner">
     <div className="b-txt">
     <h2>Payroll, HR, and 

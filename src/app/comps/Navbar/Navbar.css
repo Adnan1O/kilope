@@ -10,6 +10,7 @@
     top: 0;
     z-index: 100;
     height: 5rem;
+    position: relative;
 }
 .navbar .logo-area img{
     height: 2.5rem;
@@ -25,6 +26,9 @@
    list-style: none;
    font-size: 0.8rem;
    cursor: pointer;
+   display: flex;
+   align-items: center;
+   gap: 0.3rem;
 }
 .navbar  .login-area{
     display: flex;
@@ -48,4 +52,47 @@
   border-radius: 50px;
   color: white;
   cursor: pointer;
+}
+.platform{
+    background-color: white;
+    position: absolute;
+    width: auto;
+    height: 250px;
+    margin-top: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.platform .link-div{
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.3rem;
+transition: 0.2s ease-in;
+}
+.platform .link-div:hover{
+    background-color: #f0f0f0e0;
+    border-radius: 0.3rem;
+  
+}
+.platform .link-div p{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.platform .link-div span{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+.platform .link-div .txt-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

@@ -9,6 +9,7 @@ right: 0;
 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 display: flex;
 justify-content: center;
+height: 100vh;
 }
 .resnav .res-area{
     width: 90%;

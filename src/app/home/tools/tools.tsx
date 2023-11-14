@@ -26,7 +26,8 @@ compliantly in just 5 minutes.</p>
             <HiArrowSmallLeft className="left-arr"/>
             </span>
             <span>
-            <HiArrowSmallRight/></span>
+            <HiArrowSmallRight/>
+            </span>
         
         </div>
     </div>

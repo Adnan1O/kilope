@@ -5,7 +5,7 @@ import Price from './price/price'
 import Team from './team/team'
 import Tools from './tools/tools'
 import Best from '../home/best/best'
-import Footer from '../comps/footer/footer'
+
 const Demo = () => {
   return (
     <div className='demo'>
@@ -14,7 +14,6 @@ const Demo = () => {
      <Team/>
      <Tools/>
      <Best/>
-     <Footer/>
     </div>
   )
 }
