@@ -3,7 +3,7 @@ import Image from "next/image"
 import banner from "./img/banner.png"
 // import { BiMenuAltRight } from 'react-icons/bi';
 import { GoLinkExternal } from 'react-icons/go';
-import Navbar from "../../comps/navbar/navbar";
+// import Navbar from "../../comps/navbar/navbar";
 import "./hero.css"
 const Hero = () => {
 
@@ -13,7 +13,7 @@ const Hero = () => {
    <div className="offer-bar">
     <p>Claim your free $1,500 when you combine global payroll and HR. <span>Learn more <GoLinkExternal/></span> </p>
   </div>
-<Navbar/>
+{/* <Navbar/> */}
   <div className="banner">
     <div className="b-txt">
     <h2>Payroll, HR, and 
