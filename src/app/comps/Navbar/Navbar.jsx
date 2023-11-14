@@ -24,9 +24,9 @@ const Navbar = () => {
     <ul>
       <li onClick={()=>console.log("object")}>Platform</li>
       <li>Use Cases</li>
-      <li>Why Kilope</li>
+  <Link href="/pay"><li>Why Kilope</li></Link> 
      <Link href='/pricing'><li>Pricing</li></Link> 
-      <li>Resources</li>
+     <Link href="/manage" ><li>Resources</li></Link>
     </ul>
   </div>
   <div className="login-area">
