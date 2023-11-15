@@ -7,6 +7,11 @@ import l1 from "./img/l1.png";
 import l2 from "./img/l2.png";
 import l3 from "./img/l3.png";
 import l4 from "./img/l4.png";
+import l5 from "./img/l5.png";
+import l6 from "./img/l6.png";
+import l7 from "./img/l7.png";
+import l8 from "./img/l8.png";
+import l9 from "./img/l9.png";
 import Resnav from '../resnav/resnav';
 import Image from 'next/image';
 import { BiMenuAltRight } from "react-icons/bi";
@@ -17,15 +22,24 @@ const Navbar1 = () => {
   const [openNav, setOpenNav] = useState(false);
   const [platform, setPlatform] = useState(false);
   const [solution, setSolution] = useState(false);
+  const [resources, setResources] = useState(false);
 
   const solu =()=>{
     setSolution(!solution)
+    setResources(false)
+    setPlatform(false)
   }
   
   const plat =()=>{
     setPlatform(!platform)
+    setSolution(false)
+    setResources(false)
   }
-
+  const res =()=>{
+  setResources(!resources)
+  setPlatform(false)
+    setSolution(false)
+  }
   const open =()=>{
     setOpenNav(!openNav)
   }
@@ -33,9 +47,10 @@ const Navbar1 = () => {
   return (
     <div className="navbar">
     <div className="logo-area">
-    <Image
+   <Link href="/" > <Image
   src={kipope}
   alt="Kilope-logo"/>
+  </Link>
   </div>
   <div className="links-area">
     <ul>
@@ -45,13 +60,19 @@ const Navbar1 = () => {
         </li>
 
       <li onClick={solu} style={{color: solution? "#2240CD":"white"}}>
-        Use Cases <FaChevronDown style={{color: solution ? "none": "block"}} />
+        Use Cases <FaChevronDown style={{display: solution ? "none": "block"}} />
       <IoIosArrowUp style={{display: solution ? "block" : "none"}} />
       </li>
 
-      <li>Why Kilope <FaChevronDown /></li>
+      <li >
+        Why Kilope <FaChevronDown/>
+        </li>
      <Link href='/pricing'><li>Pricing</li></Link> 
-     <Link href="/manage" ><li>Resources <FaChevronDown /></li></Link>
+
+  <li onClick={res} style={{color: resources? "#2240CD":"white"}} >
+    Resources <FaChevronDown style={{display: resources ? "none": "block"}} />
+    <IoIosArrowUp style={{display: resources ? "block" : "none"}} />
+  </li>
     </ul>
     {
       platform &&(
@@ -72,13 +93,13 @@ const Navbar1 = () => {
          </div>
         </div>
   
-        <div className="link-div">
+     <Link href="/pay">   <div className="link-div">
          <Image src={l3} alt='' />
          <div className="txt-area">
           <p>Pay</p>
           <span>Hire global Contractors and full-time employees   </span>
          </div>
-        </div>
+        </div></Link>
   
         <div className="link-div">
          <Image src={l4} alt='' />
@@ -95,18 +116,18 @@ const Navbar1 = () => {
       solution &&(
         <div className="platform">
         <div className="link-div">
-         <Image src={l1} alt='' />
+         <Image src={l5} alt='' />
          <div className="txt-area">
-          <p>Hire</p>
+          <p>Blog</p>
           <span>Hire global Contractors and full-time employees</span>
          </div>
         </div>
   
         <div className="link-div">
-         <Image src={l2} alt='' />
+         <Image src={l6} alt='' />
          <div className="txt-area">
-          <p>Onboard</p>
-          <span>Welcome your international team compliantly</span>
+          <p>Help Center</p>
+          <span>Hire global Contractors and full-time employees</span>
          </div>
         </div>
 
@@ -114,6 +135,36 @@ const Navbar1 = () => {
       )
     }
 
+{
+      resources &&(
+        <div className="platform" style={{marginLeft:"4rem"}} >
+        <div className="link-div">
+         <Image src={l7} alt='' />
+         <div className="txt-area">
+          <p>HR teams</p>
+          <span>Hire and pay the worlds best tech talent.</span>
+         </div>
+        </div>
+  
+        <div className="link-div">
+         <Image src={l8} alt='' />
+         <div className="txt-area">
+          <p>Finance Teams</p>
+          <span>Easily manage cross  border payroll and save hours on  admin</span>
+         </div>
+        </div>
+
+        <div className="link-div">
+         <Image src={l9} alt='' />
+         <div className="txt-area">
+          <p>Global compliance</p>
+          <span>Minimize risks that come with global employment</span>
+         </div>
+        </div>
+
+      </div>   
+      )
+    }
    
   </div>
   <div className="login-area">

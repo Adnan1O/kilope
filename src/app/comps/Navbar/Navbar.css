@@ -58,7 +58,7 @@
     position: absolute;
     width: auto;
     height: 250px;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     color: black;
@@ -68,6 +68,7 @@
     justify-content: flex-start;
     gap: 1.5rem;
     flex-wrap: wrap;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.155);
 }
 .platform .link-div{
     display: flex;
