@@ -11,7 +11,6 @@ import ContainerForm from "./components/container-form";
 import HireAnywhereCard from "./components/hire-anywhere-card";
 import CompanyInfoSection from "./components/company-info-section";
 import FormContainer12 from "./components/form-container12";
-
 const Manage = () => {
   return (
     <div className="relative bg-white w-full h-[6101px] overflow-hidden text-left text-lg text-darkslategray-500 font-cta">
